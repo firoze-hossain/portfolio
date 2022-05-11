@@ -5,8 +5,14 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiApachemaven,
+  SiIntellijidea
 } from "react-icons/si";
+import {
+  DiEclipse,
+  DiNetbeans
+
+} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -15,13 +21,22 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiEclipse />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNetbeans />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiApachemaven />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
