@@ -14,10 +14,6 @@
 
 </center>
 
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [roze28](https://github.com/roze28/portfolio). Thanks!
-
 ## Built With
 
 My personal portfolio <a href="http://soumya-jit.tech/" target="_blank">roze.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
