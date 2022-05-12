@@ -21,6 +21,7 @@ const Contact = () => {
         formRef.current,
         "d2yRljk6WLWTqMRd7"
       )
+
       .then(
         (result) => {
           console.log(result.text);

@@ -11,9 +11,11 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { RiContactsBookFill } from "react-icons/ri";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -97,7 +99,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+                <RiContactsBookFill style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
