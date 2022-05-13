@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/rozemart.png";
 import bitsOfCode from "../../Assets/Projects/bookstore.png";
 
+
 function Projects() {
   return (
     <Container fluid className="project-section">
