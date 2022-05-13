@@ -7,7 +7,7 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(221, 190, 190, 0.678),
+    rgba(80, 71, 71, 0.582),
     rgba(16, 70, 32, 0.904)
   );
 
@@ -402,7 +402,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(145, 127, 182);
+  background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
