@@ -8,7 +8,6 @@ import { useRef, useState } from "react";
 import Particle from "../Particle";
 import emailjs from "emailjs-com";
 
-
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false)
