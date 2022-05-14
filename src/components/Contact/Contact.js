@@ -69,7 +69,9 @@ const Contact = () => {
             <input className="text-white" style={{backgroundColor:  "whitesmoke " }} type="text" placeholder="Subject" name="user_subject" autoComplete="off" />
             <input className="text-white" style={{backgroundColor: "whitesmoke "}} type="text" placeholder="Email" name="user_email" autoComplete="off"/>
             <textarea className="text-white" style={{backgroundColor: "whitesmoke"}} rows="5" placeholder="Message" name="message" autoComplete="off"/>
+            <div style={{paddingBottom: "15px"}}>
             <button>Submit</button>
+            </div>
             {done && "Thank you..."}
           </form>
         </div>
