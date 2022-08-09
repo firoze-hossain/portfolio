@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Md. Firoze Hossain </span> 
             from <span className="purple"> Dhaka, Bangladesh.</span>
-            <br />Working as Junior Software Engineer at <block style="color:blue;">Leads Corporation Limited.</block> 
+            <br />Working as Junior Software Engineer at Leads Corporation Limited
             <br />
             Completed BSc in Computer Science and Engineering at IUBAT—International University of Business Agriculture and Technology.
             <br />
