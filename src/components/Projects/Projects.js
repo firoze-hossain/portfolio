@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/rozemart.png";
-import bitsOfCode from "../../Assets/Projects/bookstore.png";
+import rozemart from "../../Assets/Projects/rozemart.png";
+import bookstore from "../../Assets/Projects/bookstore.png";
+import codeForces from "../../Assets/Projects/codeForces.png";
+import leetCode from "../../Assets/Projects/leetCode.png";
 
 
 function Projects() {
@@ -20,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={leetCode}
               isBlog={false}
               title="LeetCode"
               description="Visit into my LeetCode Profile."
@@ -29,7 +31,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={codeForces}
               isBlog={false}
               title="CodeForces"
               description="This is CodeForces Profile."
@@ -39,7 +41,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={rozemart}
               isBlog={false}
               title="Rozemart(Running...)"
               description="This is an E-commerce project with a great enhanced features made for computers and electronics products. Users can easily find their desired products and can buy products. This Project is made by Java(Spring Boot) Technologies and MySQL RDMS Database."
@@ -49,7 +51,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={bookstore}
               isBlog={false}
               title="Online Bookstore"
               description="This is an e-commerce platform which is developed for selling books to the consumer."
