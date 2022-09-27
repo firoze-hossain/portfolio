@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/firoze.png";
 import Tilt from "react-parallax-tilt";
+import {SiCodeforces} from "react-icons/ai";
+import {SiLeetcode} from "react-icons/ai";
 import {
   AiFillGithub,
 } from "react-icons/ai";
@@ -81,6 +83,26 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/roze28/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://codeforces.com/profile/firoze.hossain"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiCodeforces />
                 </a>
               </li>
             </ul>
