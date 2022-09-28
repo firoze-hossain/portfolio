@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/firoze.png";
 import Tilt from "react-parallax-tilt";
-import {SiCodeforces} from "react-icons/ai";
-import {SiLeetcode} from "react-icons/ai";
+import {SiCodeforces} from "react-icons/si";
+import {SiLeetcode} from "react-icons/si";
 import {
   AiFillGithub,
 } from "react-icons/ai";

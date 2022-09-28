@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {AiFillGithub} from "react-icons/ai";
-import {SiLeetcode} from "react-icons/ai";
-import {SiCodeforces} from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si";
+import {SiCodeforces} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
