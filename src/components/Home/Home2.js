@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/roze28"
+                  href="https://github.com/firoze-hossain"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/roze28/"
+                  href="https://www.linkedin.com/in/firoze-hossain/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://leetcode.com/roze28/"
+                  href="https://leetcode.com/firoze_hossain/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

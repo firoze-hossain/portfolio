@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="LeetCode"
               description="Visit into my LeetCode Profile."
-              link="https://leetcode.com/roze28/"
+              link="https://leetcode.com/firoze_hossain/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -45,7 +45,7 @@ function Projects() {
               isBlog={false}
               title="Rozemart(Running...)"
               description="This is an E-commerce project with a great enhanced features made for computers and electronics products. Users can easily find their desired products and can buy products. This Project is made by Java(Spring Boot) Technologies and MySQL RDMS Database."
-              link="https://github.com/roze28/RozeMart"
+              link="https://github.com/firoze-hossain/RozeMart"
             />
           </Col>
 
@@ -55,7 +55,7 @@ function Projects() {
               isBlog={false}
               title="Online Bookstore"
               description="This is an e-commerce platform which is developed for selling books to the consumer."
-              link="https://github.com/roze28/Online_Bookstore-Java-Spring-Thymeleaf-MySQL"
+              link="https://github.com/firoze-hossain/Online_Bookstore-Java-Spring-Thymeleaf-MySQL"
             />
           </Col>
         </Row>
