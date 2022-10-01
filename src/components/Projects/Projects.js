@@ -25,7 +25,7 @@ function Projects() {
               imgPath={leetCode}
               isBlog={false}
               title="LeetCode"
-              description="Visit into my LeetCode Profile."
+              description=""
               link="https://leetcode.com/firoze_hossain/"
             />
           </Col>
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={codeForces}
               isBlog={false}
               title="CodeForces"
-              description="This is CodeForces Profile."
+              description=""
               link="https://codeforces.com/profile/firoze.hossain"
             />
           </Col>
@@ -44,7 +44,7 @@ function Projects() {
               imgPath={rozemart}
               isBlog={false}
               title="Rozemart(Running...)"
-              description="This is an E-commerce project with a great enhanced features made for computers and electronics products. Users can easily find their desired products and can buy products. This Project is made by Java(Spring Boot) Technologies and MySQL RDMS Database."
+              description="This is an E-commerce project with a great enhanced features made for computers and electronics products."
               link="https://github.com/firoze-hossain/RozeMart"
             />
           </Col>
