@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import rozemart from "../../Assets/Projects/rozemart.png";
-import bookstore from "../../Assets/Projects/bookstore.png";
-import codeForces from "../../Assets/Projects/codeForces.png";
+import codeChef from "../../Assets/Projects/codeChef.jpg";
+import hackerEarth from "../../Assets/Projects/hackerEarth.png";
 import leetCode from "../../Assets/Projects/leetCode.png";
 
 
@@ -31,31 +30,20 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={codeForces}
+              imgPath={codeChef}
               isBlog={false}
-              title="CodeForces"
+              title="CodeChef"
               description=""
-              link="https://codeforces.com/profile/firoze.hossain"
+              link="https://www.codechef.com/users/firoze_hossain"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rozemart}
-              isBlog={false}
-              title="Rozemart(Running...)"
-              description="This is an E-commerce project with a great enhanced features made for computers and electronics products."
-              link="https://github.com/firoze-hossain/RozeMart"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bookstore}
-              isBlog={false}
-              title="Online Bookstore"
-              description="This is an e-commerce platform which is developed for selling books to the consumer."
-              link="https://github.com/firoze-hossain/Online_Bookstore-Java-Spring-Thymeleaf-MySQL"
+                imgPath={hackerEarth}
+                isBlog={false}
+                title="HackerEarth"
+                description=""
+                link="https://www.hackerearth.com/@firoze_hossain"
             />
           </Col>
         </Row>
