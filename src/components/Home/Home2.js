@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/firoze.png";
 import Tilt from "react-parallax-tilt";
 import {SiCodeforces} from "react-icons/si";
+import {SiCodechef} from "react-icons/si";
+import {SiHackerearth} from "react-icons/si";
 import {SiLeetcode} from "react-icons/si";
 import {
   AiFillGithub,
@@ -97,12 +99,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://codeforces.com/profile/firoze.hossain"
+                  href="https://www.codechef.com/users/firoze_hossain"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <SiCodeforces />
+                  <SiCodechef />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://www.hackerearth.com/@firoze_hossain"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <SiHackerearth />
                 </a>
               </li>
             </ul>
