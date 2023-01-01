@@ -1,56 +1,65 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import {Col, Row} from "react-bootstrap";
+import {CgCPlusPlus} from "react-icons/cg";
 import {
-  DiJava,
-  DiGit,
-  DiCss3
+    DiJava,
+    DiGit,
+    DiCss3
 } from "react-icons/di";
 import {
-  SiSpringboot,
-  SiSpring,
-  SiSpringsecurity,
-  SiHibernate,
-  SiMysql,
-  SiThymeleaf,
-  SiHtml5
+    SiSpringboot,
+    SiSpring,
+    SiSpringsecurity,
+    SiHibernate,
+    SiMysql,
+    SiAngular,
+    SiOracle,
+    SiThymeleaf,
+    SiDocker,
+    SiKubernetes
 } from "react-icons/si";
 
 function Techstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSpring />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSpringsecurity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHibernate />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiThymeleaf />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>    
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col> 
-    </Row>
-  );
+    return (
+        <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiJava/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSpring/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSpringboot/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSpringsecurity/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiHibernate/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiAngular/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiThymeleaf/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiOracle/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiDocker/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiKubernetes/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiMysql/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiGit/>
+            </Col>
+        </Row>
+    );
 }
 
 export default Techstack;
