@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {AiFillGithub} from "react-icons/ai";
 import {SiLeetcode} from "react-icons/si";
 import {SiCodechef} from "react-icons/si";
-import {SiHackerearth} from "react-icons/si";
+import {SiCodeforces} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -62,12 +62,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                  href="https://www.hackerearth.com/@firoze_hossain"
+                  href="https://codeforces.com/profile/firoze.hossain"
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
               >
-                <SiHackerearth/>
+                <SiCodeforces/>
               </a>
             </li>
           </ul>

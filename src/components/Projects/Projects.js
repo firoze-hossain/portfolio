@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import codeChef from "../../Assets/Projects/codeChef.jpg";
-import hackerEarth from "../../Assets/Projects/hackerEarth.png";
+import codeForces from "../../Assets/Projects/codeforces.png";
 import leetCode from "../../Assets/Projects/leetCode.png";
 
 
@@ -39,11 +39,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={hackerEarth}
+                imgPath={codeForces}
                 isBlog={false}
-                title="HackerEarth"
+                title="CodeForces"
                 description=""
-                link="https://www.hackerearth.com/@firoze_hossain"
+                link="https://codeforces.com/profile/firoze.hossain"
             />
           </Col>
         </Row>

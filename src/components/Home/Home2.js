@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/firoze.png";
 import Tilt from "react-parallax-tilt";
 import {SiCodechef} from "react-icons/si";
-import {SiHackerearth} from "react-icons/si";
+import {SiCodeforces} from "react-icons/si";
 import {SiLeetcode} from "react-icons/si";
 import {AiFillGithub} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -106,12 +106,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                    href="https://www.hackerearth.com/@firoze_hossain"
+                    href="https://codeforces.com/profile/firoze.hossain"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                 >
-                  <SiHackerearth />
+                  <SiCodeforces />
                 </a>
               </li>
             </ul>
