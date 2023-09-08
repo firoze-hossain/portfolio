@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ilife from "../../Assets/Projects/i-life.jpg";
+import ilife from "../../Assets/Projects/i-life.png";
 import geninsurance from "../../Assets/Projects/geninsurance.png";
 
 
