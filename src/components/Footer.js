@@ -60,16 +60,6 @@ function Footer() {
                 <SiCodechef/>
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                  href="https://codeforces.com/profile/firoze.hossain"
-                  style={{ color: "white" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-              >
-                <SiCodeforces/>
-              </a>
-            </li>
           </ul>
         </Col>
       </Row>

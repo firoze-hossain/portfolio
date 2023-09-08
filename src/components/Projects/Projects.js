@@ -37,15 +37,6 @@ function Projects() {
               link="https://www.codechef.com/users/firoze_hossain"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={codeForces}
-                isBlog={false}
-                title="CodeForces"
-                description=""
-                link="https://codeforces.com/profile/firoze.hossain"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

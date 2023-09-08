@@ -104,16 +104,6 @@ function Home2() {
                   <SiCodechef />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                    href="https://codeforces.com/profile/firoze.hossain"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                >
-                  <SiCodeforces />
-                </a>
-              </li>
             </ul>
           </Col>
         </Row>
