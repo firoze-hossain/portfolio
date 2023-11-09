@@ -4,6 +4,7 @@ import myImg from "../../Assets/firoze.png";
 import Tilt from "react-parallax-tilt";
 import {SiCodechef} from "react-icons/si";
 import {SiLeetcode} from "react-icons/si";
+import {SiHackerrank} from "react-icons/si";
 import {AiFillGithub} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -91,6 +92,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <SiLeetcode />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://www.hackerrank.com/profile/firoze_hossain"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <SiHackerrank />
                 </a>
               </li>
               <li className="social-icons">
