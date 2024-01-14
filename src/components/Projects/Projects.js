@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="i-life"
               description="i-Life offers a user-friendly interface, ensuring seamless access and convenience for policyholders across various devices, promoting widespread adoption of life insurance coverage. Additionally, its online platform allows customers to easily manage their policies, make premium payments, and access important information, enhancing the overall customer experience."
-              link="https://leads.com.bd/insurance-solutions/internet-insurance-solution/"
+              link="https://play.google.com/store/apps/details?id=com.sandhanilife.ilife"
             />
           </Col>
           <Col md={4} className="project-card">
