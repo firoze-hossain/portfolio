@@ -33,7 +33,7 @@ function Projects() {
               isBlog={false}
               title="General Insurance"
               description="A comprehensive software solution for general insurance can efficiently manage motor, marine, and fire insurance policies. It offers a user-friendly interface for policyholders to purchase, renew, and make claims seamlessly. The system incorporates robust risk assessment algorithms, enabling accurate premium calculations based on factors like vehicle type, cargo value, and property specifications.."
-              link="https://www.codechef.com/users/firoze_hossain"
+              link="https://en.wikipedia.org/wiki/General_insurance"
             />
           </Col>
         </Row>
