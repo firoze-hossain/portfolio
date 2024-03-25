@@ -7,7 +7,7 @@ import {SiLeetcode} from "react-icons/si";
 import {SiHackerrank} from "react-icons/si";
 import {AiFillGithub} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -92,7 +92,7 @@ function Home2() {
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                 >
-                  <FaSquareXTwitter />
+                  <FaTwitter/>
                 </a>
               </li>
               <li className="social-icons">
