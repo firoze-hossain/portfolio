@@ -5,7 +5,7 @@ import {SiLeetcode} from "react-icons/si";
 import {SiHackerrank} from "react-icons/si";
 import {SiCodechef} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import { FaSquareXTwitter } from "react-icons/fa6";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -38,6 +38,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                  href="https://twitter.com/firoze_hossain1"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                <FaSquareXTwitter />
               </a>
             </li>
             <li className="social-icons">
