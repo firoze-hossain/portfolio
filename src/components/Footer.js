@@ -5,7 +5,7 @@ import {SiLeetcode} from "react-icons/si";
 import {SiHackerrank} from "react-icons/si";
 import {SiCodechef} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -47,7 +47,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
               >
-                <FaSquareXTwitter />
+                <FaTwitter/>
               </a>
             </li>
             <li className="social-icons">
