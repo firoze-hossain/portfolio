@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import iLife from "../../Assets/Projects/iLife.png";
+import hos from "../../Assets/Projects/hos.jpeg";
 import geninsurance from "../../Assets/Projects/geninsurance.png";
 
 
@@ -18,6 +18,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hos}
+              isBlog={false}
+              title="Hospital Mangement System"
+              description="Hospital Mangement System a user-friendly interface, ensuring seamless access and convenience for policyholders across various devices, promoting widespread adoption of Enterprise Solution coverage. Additionally, and access important information, enhancing the overall customer experience."
+              link="https://www.uhlbd.com/"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={iLife}
