@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import hos from "../../Assets/Projects/hos.jpeg";
 import geninsurance from "../../Assets/Projects/geninsurance.png";
-
+import iLife from "../../Assets/Projects/iLife.png"; 
 
 function Projects() {
   return (
