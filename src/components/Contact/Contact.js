@@ -6,7 +6,7 @@ import Email from "../../Assets/email.png";
 import Address from "../../Assets/address.png";
 import { useRef, useState } from "react";
 import Particle from "../Particle";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const formRef = useRef();
